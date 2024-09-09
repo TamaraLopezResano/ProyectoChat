@@ -1,0 +1,20 @@
+[
+  {
+    "idChat": 1,
+    "username": "Lucas",
+    "MensajesPropios": ["hola", "que"] ,
+    "Mensajes": ["locura", "so"]
+  },
+  {
+    "idChat": 2,
+    "username": "Franco",
+    "MensajesPropios": ["prestia gordo"],
+    "Mensajes": []
+  },
+  {
+    "idChat": 3,
+    "username": "Fabricio",
+    "MensajesPropios": ["el programador chad"],
+    "Mensajes": []
+  }
+]

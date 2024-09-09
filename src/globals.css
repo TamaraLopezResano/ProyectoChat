@@ -1,0 +1,54 @@
+body{
+  background-color: gray;
+}
+
+h1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+
+.chat {
+  display: block;
+  padding: 3vh;
+  width: 20%;
+  align-content: center;
+  justify-content: center;
+  border: 2px white;
+  border-style: solid;
+  background-color: green;
+  color: white;
+}
+
+.mensajePropio{
+  background-color: green;
+  margin: 10px;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  width: 11rem;
+  position: relative;
+  border: 2px solid black;
+  right: -87%;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 22px;
+}
+
+.mensaje{
+  background-color: white;
+  margin: 10px;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  width: 11rem;
+  position: relative;
+  right: 0;
+  padding: 10px;
+  border: 2px solid black;
+  justify-content: space-between;
+  border-radius: 22px;
+}
