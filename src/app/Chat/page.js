@@ -10,7 +10,7 @@ export default function Home() {
     return(
     <div>
         
-        <h1>Lucas</h1>
+        <h1>A</h1>
 
         {usuarios[0].MensajesPropios.map((mensajePropio) => 
         {return(<ComponenteMensajePropio textoMensajePropio={mensajePropio}/>)}

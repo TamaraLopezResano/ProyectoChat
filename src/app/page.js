@@ -2,7 +2,7 @@
 
 import usuarios from "@/components/jason-chats.json"
 import ComponenteChat from "@/components/chat.jsx";
-import ComponenteAgregarMensajes from "@/components/agregarMensajes.jsx";
+import ComponenteAgregarMensajes from "@/components/addMessage.jsx";
 import { useEffect, useState } from "react";
 import { useSocket } from "@/hooks/useSocket";
 
@@ -18,7 +18,7 @@ export default function Home() {
   }, [socket, isConnected])
 
   function handleClick(){
-    socket.emit('pingAll', {message: "SE DICE EN EL LICEO QUE JARA SE COME EL PITOOOOO"})
+    socket.emit('pingAll', {message: "message"})
   }
 
   return(
@@ -30,7 +30,7 @@ export default function Home() {
       return (<ComponenteChat nombreUsuario={chat.username}/>)}
       )}
 
-      <ComponenteAgregarMensajes textButton="Lucas"/>
+      <ComponenteAgregarMensajes textButton="A"/>
 
   </div>
   );

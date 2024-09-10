@@ -1,5 +1,5 @@
 body{
-  background-color: gray;
+  background-color: #1E201E;
 }
 
 h1 {
@@ -19,12 +19,12 @@ h1 {
   justify-content: center;
   border: 2px white;
   border-style: solid;
-  background-color: green;
+  background-color: #FEF9D9;
   color: white;
 }
 
 .mensajePropio{
-  background-color: green;
+  background-color: #B4E380;
   margin: 10px;
   height: 2rem;
   display: flex;
@@ -39,7 +39,7 @@ h1 {
 }
 
 .mensaje{
-  background-color: white;
+  background-color: #E9EFEC;
   margin: 10px;
   height: 2rem;
   display: flex;

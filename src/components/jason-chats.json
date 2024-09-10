@@ -1,20 +1,26 @@
 [
   {
     "idChat": 1,
-    "username": "Lucas",
-    "MensajesPropios": ["hola", "que"] ,
-    "Mensajes": ["locura", "so"]
+    "username": "A",
+    "MensajesPropios": ["Hola", "Si"] ,
+    "Mensajes": ["Bien", "No"]
   },
   {
     "idChat": 2,
-    "username": "Franco",
-    "MensajesPropios": ["prestia gordo"],
+    "username": "B",
+    "MensajesPropios": ["Esta bien"],
     "Mensajes": []
   },
   {
     "idChat": 3,
-    "username": "Fabricio",
-    "MensajesPropios": ["el programador chad"],
+    "username": "C",
+    "MensajesPropios": ["Mañana"],
+    "Mensajes": []
+  },
+  {
+    "idChat": 4,
+    "username": "D",
+    "MensajesPropios": ["Jajajajaj"],
     "Mensajes": []
   }
 ]
