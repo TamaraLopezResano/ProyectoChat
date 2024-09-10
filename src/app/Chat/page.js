@@ -1,7 +1,7 @@
 "use-client"
 
-import ComponenteMensaje from "@/components/Mensaje.jsx"
-import ComponenteMensajePropio from "@/components/mensajePropio.jsx"
+import ComponenteMensaje from "@/components/Message.jsx"
+import ComponenteMensajePropio from "@/components/ownMessage.jsx"
 import usuarios from "@/components/jason-chats.json"
 
 export default function Home() {

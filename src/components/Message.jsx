@@ -2,7 +2,7 @@
 
 export default function componenteMensaje(props){
     return(
-        <div className="mensaje">
+        <div className="message">
             <p>{props.textoMensaje}</p>
         </div>
     );
