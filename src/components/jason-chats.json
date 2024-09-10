@@ -1,25 +1,25 @@
 [
   {
     "idChat": 1,
-    "username": "A",
+    "username": "Chat1",
     "MensajesPropios": ["Hola", "Si"] ,
     "Mensajes": ["Bien", "No"]
   },
   {
     "idChat": 2,
-    "username": "B",
+    "username": "Chat2",
     "MensajesPropios": ["Esta bien"],
     "Mensajes": []
   },
   {
     "idChat": 3,
-    "username": "C",
+    "username": "Chat3",
     "MensajesPropios": ["Mañana"],
     "Mensajes": []
   },
   {
     "idChat": 4,
-    "username": "D",
+    "username": "Chat4",
     "MensajesPropios": ["Jajajajaj"],
     "Mensajes": []
   }
