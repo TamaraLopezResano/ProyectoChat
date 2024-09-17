@@ -23,3 +23,19 @@ export default function Home() {
     </div>
     )
 }
+
+
+useEffect(()=> {
+    if(!socket) return;
+
+    socket.on("pingAll" , (data) => {
+        console.log("Mensaje recibido: " , data);
+    })
+    
+
+} , [socket, isConnected]);
+
+function handlePing(){
+    socket.emit("pingAll" , {message: "Hola"});
+
+}
