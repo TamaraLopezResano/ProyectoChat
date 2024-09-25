@@ -1,0 +1,5 @@
+Foreing key para chats
+historial
+arreglar css
+desplegable unico de cada chats 
+especificaciones de componentes
